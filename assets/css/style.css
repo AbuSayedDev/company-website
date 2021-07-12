@@ -17,6 +17,7 @@
         5.project-wrapper
         6.ourClients-wrapper
         .common-page-wrapper
+        .contant-wrapper
         7.footer
 
  */
@@ -481,6 +482,42 @@ p {
     background-color: #27aae1;
 }
 
+/*====================> contant-wrapper <===================*/
+
+.contact-info-area {
+    box-shadow: 0px 0px 10px #27aae15e;
+    border-radius: 10px;
+    padding: 50px 20px;
+    margin: 60px 0 0 0;
+    border: 1px solid #27aae15e;
+}
+
+.contact-info-area .contact-info .form-group label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c6c6c6;
+}
+
+.contact-info-area .contact-info .form-group .form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #27AAE1;
+    color: #fff;
+}
+
+.contact-info-area .contact-info .form-group .form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #27AAE1;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 0%);
+}
+
+.contact-btn-area button {
+    font-size: 17px;
+    font-weight: 500;
+}
+
 /*====================> footer-wrapper <===================*/
 .footer-item .footer-item-content ul>li {
     padding: 5px 0;
@@ -597,6 +634,10 @@ p {
         font-size: 25px;
         line-height: 30px;
         margin-bottom: 15px;
+    }
+
+    .map-area iframe {
+        height: 150px;
     }
 }
 
